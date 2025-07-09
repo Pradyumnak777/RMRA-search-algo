@@ -1,6 +1,6 @@
 # RMRA-search-algo
 
-This code forms an integral part of our paper(under review, preprint not generated yet) - *A Leap-on-Success Exhaustive Search Method to Find Optimal Robust Minimum  Redundancy Arrays (RMRAs)*
+This code forms an integral part of our paper - "*A Leap-on-Success Exhaustive Search Method to Find Optimal Robust Minimum  Redundancy Arrays (RMRAs)*", which is currently under peer review. Preprint will be linked as soon as it becomes available.
 
 We present a multi-core processing aided exhaustive search algorithm to find RMRA configurations. 
 
