@@ -17,7 +17,8 @@ A single (valid) RMRA configuration is returned for every aperture **(L)**, rang
 ### Future Work
 This algorithm can also be extrapolated to search for optimal configurations of k-Fold redundant sparse arrays.
 
-Please cite this software using the following DOI:
+### Citation
+If you use this code in your research, please cite it using the following DOI
 
 [![DOI](https://zenodo.org/badge/1016633240.svg)](https://doi.org/10.5281/zenodo.15847559)
 
