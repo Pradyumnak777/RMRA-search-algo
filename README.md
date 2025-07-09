@@ -17,9 +17,16 @@ A single (valid) RMRA configuration is returned for every aperture **(L)**, rang
 ### Future Work
 This algorithm can also be extrapolated to search for optimal configurations of k-Fold redundant sparse arrays.
 
+### Information
+
+This work was conducted as part of a research effort involving Robust Sparse Array Design at VIT, Vellore under the guidance of **Dr. Ashish Patwari** - A Leap-on-Success Exhaustive Search Method to Find Optimal Robust Minimum
+ Redundancy Arrays (RMRAs): New Array Configurations for Sensor Counts 11 to 20
+
 ### Citation
 If you use this code in your research, please cite it using the following DOI
 
 [![DOI](https://zenodo.org/badge/1016633240.svg)](https://doi.org/10.5281/zenodo.15847559)
+
+
 
     
