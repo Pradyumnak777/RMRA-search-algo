@@ -4,7 +4,7 @@ import os, psutil, gc, time, threading
 import datetime
 
 current_time_str = ""
-N = 0
+L = 0 
 
 def update_time_every_second():
     global current_time_str
@@ -64,17 +64,17 @@ def tryAllCombinations_parallel(n, current_N):
 
 if __name__ == "__main__": #otherwise, child processes(called later) will also run this again
     n = int(input("Enter array size: "))
-    N = n-1
+    L = n-1 #this is the aperture, initially set to (n-1)
     threading.Thread(target=update_time_every_second, daemon=True).start()
     # threading.Thread(target=print_memory_periodically, daemon=True).start() #will print time/memory every 1 hour
     print(current_time_str)
-    while N < 100:
-        found = tryAllCombinations_parallel(n, N)
+    while L < 100:
+        found = tryAllCombinations_parallel(n, L)
         gc.collect()
         if found:
             print("success, checking for higher L, current time:", current_time_str)
         else:
-            print(f"failure for {N}, still checking for higher L, current time:", current_time_str)
+            print(f"failure for {L}, still checking for higher L, current time:", current_time_str)
         
-        N += 1    
+        L += 1    
 
