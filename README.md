@@ -1,6 +1,6 @@
 # RMRA-search-algo
 
-We present a multi-core processing aided exhaustive search algorithm to find optimal Robust Minimum Redundancy Arrays. 
+We present a multi-core processing aided exhaustive search algorithm in Python to find optimal Robust Minimum Redundancy Arrays. 
 
 ### Input: 
 Desired size of the linear antenna array **(n)**
