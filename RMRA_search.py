@@ -52,8 +52,8 @@ def process_combo(combo_info):
 def tryAllCombinations_parallel(n, current_N):
     middle_values = list(range(3, current_N - 1))
     job_inputs = ((combo, current_N, n) for combo in combinations(middle_values, n - 5)) #lazy generation, instead of storing millions of combinations in a list
-
-    with Pool(processes=cpu_count()) as pool: #creates new processes (NEW PYTHON INTERPRETERS) - more isolation, separate memory
+    #creates new processes (NEW PYTHON INTERPRETERS) - more isolation, separate memory
+    with Pool(processes=cpu_count()) as pool: # CHANGE THIS if you want to customize the number of processes. This uses all available cores.
         for result in pool.imap_unordered(process_combo, job_inputs, chunksize=100): #combinations calculated isolatedly. imap_unordered holds only 100 memory instead of themilllions of combinattions, reducing memory usage
             if result:
                 print(f"{result} is a solution for {current_N}\n")
