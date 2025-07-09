@@ -4,7 +4,10 @@ This code forms an integral part of our paper(under review, preprint not generat
 
 We present a multi-core processing aided exhaustive search algorithm to find RMRA configurations. 
 
-_**Input:**_ Desired size of the linear antenna array **(n)**
+**Input:** Desired size of the linear antenna array **(n)**
 
 **Output:** A single (valid) RMRA configuration is returned for every aperture **(L)**, ranging from **L = n-1** (which is essentially a Uniform Linear Array) onwards. The upper bound of **L** can be set manually, as per requirements. As this program was developed to find optimal RMRA configurations that have not been previously reported, a suitably high **L** value (say 100) was chosen.
+
+
+This algorithm can also be extrapolated to search for optimal configurations of k-Fold redundant sparse arrays.
     
