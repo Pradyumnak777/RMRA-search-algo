@@ -19,8 +19,7 @@ This algorithm can also be extrapolated to search for optimal configurations of 
 
 ### Information
 
-This work was conducted as part of a research effort involving Robust Sparse Array Design at VIT, Vellore under the guidance of **Dr. Ashish Patwari** - A Leap-on-Success Exhaustive Search Method to Find Optimal Robust Minimum
- Redundancy Arrays (RMRAs): New Array Configurations for Sensor Counts 11 to 20
+This work was conducted as part of a research effort involving Robust Sparse Array Design at VIT, Vellore under the guidance of **Dr. Ashish Patwari**. Preprint can be found [here](https://arxiv.org/abs/2507.10706).
 
 ### Citation
 If you use this code in your research, please cite it using the following DOI
